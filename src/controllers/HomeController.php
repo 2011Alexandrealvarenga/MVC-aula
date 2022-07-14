@@ -9,8 +9,8 @@ class HomeController extends Controller {
         $this->render('home', ['nome' => 'Bonieky']);
     }
 
-    public function sobre() {
-        $this->render('sobre');
+    public function nova() {
+        $this->render('nova');
     }
 
     public function sobreP($args) {
